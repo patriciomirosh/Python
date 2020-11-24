@@ -1,0 +1,12 @@
+2020-11-09 19:55:15,873 : myloggers : <ipython-input-1-09c580bc8775>:testfunction : DEBUG : The program is function well
+2020-11-09 19:55:21,232 : myloggers : <ipython-input-1-09c580bc8775>:testfunction : INFO : everything is fine
+2020-11-09 19:55:22,947 : myloggers : <ipython-input-1-09c580bc8775>:__init__ : ERROR : The log of the error are Traceback (most recent call last):
+  File "<ipython-input-1-09c580bc8775>", line 32, in __init__
+    self.result=x/y
+ZeroDivisionError: division by zero
+
+2020-11-09 19:55:25,948 : myloggers : <ipython-input-1-09c580bc8775>:adde : ERROR : The program cant add this values
+2020-11-09 19:55:25,949 : myloggers : <ipython-input-1-09c580bc8775>:adde : ERROR : The variables input cannot be added
+2020-11-09 19:55:49,656 : myloggers : <ipython-input-1-09c580bc8775>:doingyouremail : INFO : dear user your credencials are/ name: patricio, last: pereytra, email:  patricio.pereytra@mycompany.com /
+2020-11-09 19:56:05,704 : myloggers : <ipython-input-1-09c580bc8775>:doingyouremail : CRITICAL : The user didn't introduce at least 2 words, the program cannot will be doing his email
+2020-11-09 19:56:05,705 : myloggers : <ipython-input-1-09c580bc8775>:doingyouremail : INFO : Please introduce your first name and last name
